@@ -5,7 +5,7 @@ pipeline {
     stage('Checkout') {
       steps {
         git branch: 'main',
-            url: 'https://gitlab.com/USERNAME/fullstack-sample-app.git'
+            url: 'https://github.com/EnochEesa/Beginner-CI-CD-Pipeline.git'
       }
     }
 
